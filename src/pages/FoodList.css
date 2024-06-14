@@ -1,0 +1,142 @@
+.button4{
+    border-radius: 10px;
+    color: rgba(253, 245, 245, 0.933);
+    background: red;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 10px 20px 0 20px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.foodlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background: #192F01;
+    
+}
+.foodlist h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px;
+}
+.animation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://images.pexels.com/photos/5711037/pexels-photo-5711037.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    box-shadow:
+    10px 10px 7px 6px rgba(0, 0, 0, 0.18),
+    3px 4.5px 4px 7px rgba(0, 0, 0, 0.15),
+    7px 2px 4px 5px rgba(0, 0, 0, 0.3),
+    8px 3px 33px 10px rgba(0, 0, 0, 0.1);
+    animation: change 30s infinite ease-in-out;
+  }
+  @keyframes change{
+    0%
+    {
+       background-image: url("https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600");
+      }
+      20%
+      {
+      background-image: url("https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600");
+      }
+      40%
+      {
+      background-image: url("https://images.pexels.com/photos/4262173/pexels-photo-4262173.jpeg?auto=compress&cs=tinysrgb&w=600");
+      }
+      60%
+      {
+      background-image: url("https://images.pexels.com/photos/6210433/pexels-photo-6210433.jpeg?auto=compress&cs=tinysrgb&w=600");
+      }
+      80%
+      {
+      background-image: url("https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=600");
+      }
+      100%
+      {
+      background-image: url("https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600");
+      }
+  
+    }
+    .anim-box{
+      display: flex;
+      justify-content: center;
+      width: 100px;
+      height: 80px;
+      background: url("https://images.pexels.com/photos/1019412/pexels-photo-1019412.jpeg?auto=compress&cs=tinysrgb&w=600");
+      object-fit: cover;
+      background-size: cover;
+      font-weight: 500;
+      align-items: center;
+      color: white;
+      position: relative;
+      border: groove;
+      border-style: solid;
+      border-radius: 15%;
+      animation: myfirst 30s infinite;
+      animation-direction: alternate;
+      animation-timing-function: repeat;
+      text-align: center;
+     transition: transform 1s;
+    }
+    .anim-box:hover{
+      transform: rotate(1520deg);
+    }
+    @keyframes myfirst {
+      0% {background: url("https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600"); left: 0px; top: 500px;object-fit: cover;}
+      25% { background: goldenrod; left: 50%; top: 0px;object-fit: cover;}
+      50% {background: url("https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600"); left: 10px; top: 0px;object-fit: cover;}
+      75% { background: rgb(62, 132, 62); left: 500px; top: 300px;object-fit: cover;}
+      100% { background: rgb(143, 42, 113); left: 0px; top: 500px;object-fit: cover;}
+    }
+
+.list {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+ 
+}
+.list img{
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 3px 14px -1px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 1px 3px 14px -1px rgba(0,0,0,0.20);
+    box-shadow: 1px 3px 14px -1px rgba(0,0,0,0.20);
+}
+
+li{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+    background: #000;
+    color: white;
+}

@@ -1,0 +1,120 @@
+/* .pics{
+    display: flex;
+    align-items: end;
+} */
+
+.pic{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    align-items: start;
+    margin: 50px 150px;
+    width: 70%;
+    height: 500px;
+    padding: 50px;
+    position: sticky;
+    top: 40;
+    background: url('https://images.pexels.com/photos/7525184/pexels-photo-7525184.jpeg?auto=compress&cs=tinysrgb&w=600'), center;
+    background-size: cover;
+    color: blueviolet;
+    border-radius: 20px;
+
+    animation: man 80s infinite ease-in-out;
+}
+  @keyframes man{
+  0%{ background: url("https://images.pexels.com/photos/6210458/pexels-photo-6210458.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+    height: 500px;
+    background-size: cover;}
+  10%{ background: url("https://images.pexels.com/photos/5082865/pexels-photo-5082865.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 500px;
+    background-size: cover;}
+ 20% {  background: url("https://media.istockphoto.com/id/183405605/photo/mature-african-american-woman-eating-salad-in-kitchen.jpg?s=612x612&w=0&k=20&c=G7J0lgklgIn-PMjoOpSzeCTMGxhZKTC9M2q_i6dQPx4=");
+    height: 500px;
+    background-size: cover;}
+ 30% {  background: url("https://images.pexels.com/photos/6482350/pexels-photo-6482350.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 500px;
+    background-size: cover;}
+ 40% {  background: url("https://images.pexels.com/photos/6193435/pexels-photo-6193435.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 500px;
+    background-size: cover;}
+ 50% {  background: url("https://media.istockphoto.com/id/1143191120/photo/traditional-moroccan-tajine-of-chicken-with-dried-fruits-and-spices.jpg?s=612x612&w=0&k=20&c=KTNBlSpeS18SGMNacLGxPbVh0MRRnlPrEKL1jJAZ-es=");
+    height: 500px;
+    background-size: cover;}
+    60%{ background: url("https://images.pexels.com/photos/3811663/pexels-photo-3811663.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 500px;
+        background-size: cover;}
+      70%{ background: url("https://images.pexels.com/photos/5082865/pexels-photo-5082865.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 500px;
+        background-size: cover;}
+     80% {  background: url("https://media.istockphoto.com/id/183405605/photo/mature-african-american-woman-eating-salad-in-kitchen.jpg?s=612x612&w=0&k=20&c=G7J0lgklgIn-PMjoOpSzeCTMGxhZKTC9M2q_i6dQPx4=");
+        height: 500px;
+        background-size: cover;}
+     90% {  background: url("https://images.pexels.com/photos/6482350/pexels-photo-6482350.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 500px;
+        background-size: cover;}
+     100% {  background: url("https://images.pexels.com/photos/6193435/pexels-photo-6193435.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 500px;
+        background-size: cover;}
+        110% {  background: url( "https://images.pexels.com/photos/3811663/pexels-photo-3811663.jpeg?auto=compress&cs=tinysrgb&w=600");
+         height: 500px;
+         background-size: cover;}
+     
+  }
+
+ 
+  .pic h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+    color: red;
+    text-shadow: 2px 2px black;
+    animation: boy 80s infinite ease-in-out;
+  }
+  
+   @keyframes boy{
+     15%{
+      color: blue;
+      text-shadow: 2px 2px orange;
+     }
+     30%{
+      color:#9F496E;
+      text-shadow: 2px 2px blue;
+     }
+     45%{
+      color:  GREEN;
+      text-shadow: 2px 2px yellow;
+     }
+     60%{
+      color: #B3DEE5;
+      text-shadow: 2px 2px #FAE6B1;
+     }
+     70%{
+      color: white;
+      text-shadow: 2px 2px #647295;
+     }
+     80%{
+      color: #E0475B;
+      text-shadow: 2px 2px black;
+     }
+     89%{
+      color: #c0A9BD;
+      text-shadow: 2px 2px #192F01;
+     }
+     97%{
+      color: black;
+      text-shadow: 2px 2px WHITE;
+     }
+     105%{
+      color:lime;
+      text-shadow: 2px 2px black;
+     }
+     120%{
+      color: #DED369;
+      text-shadow: 2px 2px #E0475B;
+     }
+   }
+   
+  

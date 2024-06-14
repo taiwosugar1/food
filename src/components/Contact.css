@@ -1,0 +1,11 @@
+.con-But{
+    border-radius: 20px;
+    color: rgb(239, 73, 73);
+    background: black;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
